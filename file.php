@@ -18,7 +18,7 @@ $use_auth = true;
 // Generate secure password hash - https://tinyfilemanager.github.io/docs/pwd.html
 $auth_users = array(
     'admin' => '$2y$10$C38bHUVgwWL/x0FoXI60YOjgcsFXu97diIk.EcYuugH.96sPpBDwu', //admin@123
-    'user' => '$2y$10$C38bHUVgwWL/x0FoXI60YOjgcsFXu97diIk.EcYuugH.96sPpBDwu' //12345
+    'user' => '$2y$10$kWFVDfzKEWeVmUJpx3NoVe9b9T/pEAE5HECcYNWWWCpOePb88nHSW' //12345
 );
 
 // Readonly users (username array)
@@ -43,7 +43,7 @@ $edit_files = true;
 $default_timezone = 'Etc/UTC'; // UTC
 
 // Root path for file manager
-$root_path = $_SERVER['DOCUMENT_ROOT'];
+$root_path = $_SERVER['DOCUMENT_ROOT/Files'];
 
 // Root url for links in file manager.Relative to $http_host. Variants: '', 'path/to/subfolder'
 // Will not working if $root_path will be outside of server document root
