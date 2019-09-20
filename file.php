@@ -43,7 +43,7 @@ $edit_files = true;
 $default_timezone = 'Etc/UTC'; // UTC
 
 // Root path for file manager
-$root_path = $_SERVER['DOCUMENT_ROOT/Files'];
+$root_path = $_SERVER['DOCUMENT_ROOT/Downloads'];
 
 // Root url for links in file manager.Relative to $http_host. Variants: '', 'path/to/subfolder'
 // Will not working if $root_path will be outside of server document root
